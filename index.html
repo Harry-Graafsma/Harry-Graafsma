@@ -1,12 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Title</title>
+    <title>My Personal Website</title>
+    <style>
+        /* A little bit of CSS to make it readable */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            color: #333;
+        }
+        header { border-bottom: 2px solid #eee; padding-bottom: 20px; }
+        section { margin-top: 30px; }
+        h1, h2 { color: #111; }
+        ul { padding-left: 20px; }
+        .links a { margin-right: 15px; text-decoration: none; color: #0066cc; font-weight: bold; }
+        .links a:hover { text-decoration: underline; }
+    </style>
 </head>
 <body>
-    <h1>My First Heading</h1>
-    <p>My first paragraph.</p>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>Job Title / Aspiring Profession / Short Bio Tagline</p>
+        <div class="links">
+            <a href="mailto:your@email.com">Email</a>
+            <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
+            <a href="https://github.com/yourusername">GitHub</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Write a brief introduction here. Talk about what you're passionate about, what you've studied, or what you're currently working on.</p>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p><strong>Current/Latest Role</strong> | Company Name | 202X – Present</p>
+        <ul>
+            <li>Achieved X by doing Y.</li>
+            <li>Managed a project that resulted in Z.</li>
+        </ul>
+
+        <p><strong>Previous Role</strong> | Company Name | 201X – 202X</p>
+        <ul>
+            <li>Task or achievement goes here.</li>
+        </ul>
+        
+        <p><a href="resume.pdf" target="_blank">View Full PDF Resume</a></p>
+    </section>
+
+    <section id="projects">
+        <h2>Links & Projects</h2>
+        <ul>
+            <li><a href="#">Project One</a> - A short description of what this link is.</li>
+            <li><a href="#">Project Two</a> - Another cool thing you did.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <hr>
+        <p><small>&copy; 2026 Your Name</small></p>
+    </footer>
+
 </body>
 </html>
